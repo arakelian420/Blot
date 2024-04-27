@@ -1,4 +1,12 @@
-.p .bazar{
+.bazar{
     color: aqua;
     background-color: black;
 }
+
+
+.kaput {
+    color: #0000FF;
+    background-color: yellow;
+    font-weight: bold;
+}
+
