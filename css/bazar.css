@@ -5,8 +5,27 @@
 
 
 .kaput {
-    color: #0000FF;
+    color: #FF0000;
     background-color: yellow;
     font-weight: bold;
 }
 
+.pravila {
+    color: #FF0000; 
+    rotate: 90deg;   
+    
+}
+
+#highestBoy {
+    font-family: "press start 2p", "consolas", "courier new";
+    color: black;
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+#highestMast {
+    font-family: "press start 2p", "consolas",  "courier new";
+    color: black;
+    background-color: aquamarine;
+    font-weight: bold;
+}
