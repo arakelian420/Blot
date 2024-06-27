@@ -40,9 +40,12 @@ function myFunction() {
   var scoreA = document.getElementById("scoreA").value;
   var scoreB = document.getElementById("scoreB").value;
   
+  if (isNaN(scoreA) == false && isNaN(scoreB) == false ) {
+
   var row = table.insertRow(-1);
   var cell1 = row.insertCell(0);
   var cell2 = row.insertCell(1);
+  
   
   if (table.rows.length > 2) {
     var prevRow = table.rows[table.rows.length - 2];
@@ -54,6 +57,9 @@ function myFunction() {
     cell1.innerHTML = parseInt(scoreA);
     cell2.innerHTML = parseInt(scoreB);
   }
+} else {
+  alert("Введите натуральное число");
+}
 }
 </script>
 
